@@ -1,0 +1,45 @@
+#include <iostream>
+
+using namespace std;
+
+int y;
+int x;
+int z;
+int p;
+int g;
+int k;
+int main()
+{
+    while (y<999)
+    {
+        cout << z <<endl;
+
+          y=y+3;
+        z=z+y;
+
+    }
+
+    while (x<995)
+    {
+        cout << p <<endl;
+        x=x+5;
+        p=p+x;
+
+    }
+
+    while (g<990)
+    {
+        cout << k <<endl;
+
+        g=g+15;
+        k=k+g;
+    }
+
+cout << z <<endl;
+cout << p <<endl;
+cout << k <<endl;
+
+cout << "wynik to: " << z+p-k << endl;
+
+    return 0;
+}
